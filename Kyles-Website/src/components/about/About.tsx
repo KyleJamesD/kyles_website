@@ -3,11 +3,11 @@ import "./About.css"
 
 const About = () => {
     return (
-        <>
-        <div>About</div>
-        <div className="aboutplaceholder">
+        <div id="about">
+            <div>About</div>
+            <div className="aboutplaceholder">
+            </div>
         </div>
-        </>
     );
 }
 

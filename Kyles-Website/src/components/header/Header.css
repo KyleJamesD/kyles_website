@@ -2,7 +2,7 @@
 .navbarouter{
     position: fixed;              /* Keeps the navbar fixed at the top as you scroll */
     top: 16px;                    /* Distance between top of browser window and navbar */
-    width: 100vw;                 /* Full viewport width; makes flex centering easy */
+    width: 100%;                 /* Full viewport width; makes flex centering easy */
     display: flex;                /* Use flexbox to center child horizontally */
     justify-content: center;      /* Center children (the nav pills) horizontally */
     z-index: 1001;                /* Make sure nav sits above page content */

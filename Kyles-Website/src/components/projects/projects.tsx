@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 const Projects = () => {
     return (
-            <div className='container'>
+            <div id="projects" className='container'>
                 <div className='row row-cols-1 row-cols-md-3 g-5'>
                 <div className='col'>
                 <Card >

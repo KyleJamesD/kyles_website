@@ -5,7 +5,7 @@ import kdavatar from '../../assets/kdavatar.jpg'
 
 export default function Home () {
     return (
-        <div>
+        <div id="home">
             <div className="container" style={{ marginTop: '10%'}} >
                 <div className="row">
                     <div className="col">
