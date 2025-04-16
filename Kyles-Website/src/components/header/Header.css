@@ -1,0 +1,55 @@
+/* Outer container for the navigation, takes whole page width and is fixed to top */
+.navbarouter{
+    position: fixed;              /* Keeps the navbar fixed at the top as you scroll */
+    top: 16px;                    /* Distance between top of browser window and navbar */
+    width: 100vw;                 /* Full viewport width; makes flex centering easy */
+    display: flex;                /* Use flexbox to center child horizontally */
+    justify-content: center;      /* Center children (the nav pills) horizontally */
+    z-index: 1001;                /* Make sure nav sits above page content */
+    pointer-events: none;         /* Prevent any clicks on this outer div 
+                                     (so only inner pill bar/buttons can be clicked) */
+}
+
+/* The pill-style bar */
+.pill-outer{
+    display: flex;                         /* Lay out nav buttons in a row */
+    background-color: rgba(223,223,223,0.2); /* Light semi-transparent background for frosted effect (note: needs 'rgba', not 'rgb' for alpha) 4th number is transparency */
+    border-radius: 9999px;                 /* Maximum border radius, gives "pill" shape */
+    height: 32px;                          /* Set a consistent height for the pill bar */
+    justify-content: center;               /* Center nav buttons inside pill bar */
+    width: fit-content;                    /* Only as wide as content (the buttons) */
+    padding-left: 2px;                     
+    padding-right: 2px;                    
+    border: 1px solid rgb(60, 60, 60);     /* Subtle border for definition */
+    pointer-events: auto;                  /* Re-enable pointer events on this so pills/buttons are clickable */
+    backdrop-filter: blur(12px);           /* Frosted glass blur effect for background */
+    box-shadow: 0 2px 10px rgba(60,60,60,0.07); /* Soft shadow for depth (optional) */
+}
+
+/* Style for each individual nav button/pill */
+.button-nav{
+    border: none;                         /* Remove default button border */
+    background: transparent;              /* Transparent background by default */
+    border-radius: 9999px;                /* Fully round the button for "pill" look */
+    font-size: 1rem;                      /* Set consistent font size */
+    cursor: pointer;                      /* Pointer cursor for clickable effect */
+    color: #222;                          /* Default text color */
+    padding-left: 10px;                   
+    padding-right: 10px;                  
+    font-size: 14px;                      
+    font-weight: 600;                     
+    margin: 2px;                          
+    width: 75px;                          /* Consistent button width, can adjust for look/feel */
+    transition: background 0.18s, color 0.18s; /* Smooth transition on color/background change */
+}
+
+/* Style for button on hover */
+.button-nav:hover{
+    background-color: rgb(209, 209, 209); /* Light gray background on hover */
+}
+
+/* Style for the "active" (currently selected) nav button */
+.button-nav.active {
+    background-color: black;              /* Black background for active pill */
+    color: white;                         /* White text for active pill */
+}
