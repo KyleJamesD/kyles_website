@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div id="contact">
             <div>Contact</div>
-            <div className='contactplaceholder'>
+            <div className={styles.contactplaceholder}>
             </div>
         </div>
     );

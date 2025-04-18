@@ -18,14 +18,63 @@
 }
 
 .gradientheading {
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    background: linear-gradient(90deg, hsl(8, 100%, 50%) 0%,  #b7f50d 55% ,#00f0dc 100%);
+    background: linear-gradient(90deg,  #010a2e 0%,  #a5e0f8 65% ,#ffffff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     
-    color: transparent;[]
+    color: transparent;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1%;
+  }
+
+  .cardgradientheading {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    background: linear-gradient(90deg,  #010a2e 0%,  #a5e0f8 65% ,#d3dcf9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
+
+  .cardherotitle{
+    font-family: 'Calistoga', serif;
+    font-size: 32px;
+}
+
+.githubbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    background: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 12px 14px;
+    border-radius: 14px;
+    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    border: none;
+    cursor: pointer;
+    gap: 6px;
+    transition: background 0.15s;
+    outline: none;
+    margin-top: 6%;
+    width: 150px;
+    margin-left: 4%;
+  }
+  .githubbutton:hover,
+  .githubbutton:focus {
+    background: #363636;
+    color: #fff;
+    text-decoration: none;
   }

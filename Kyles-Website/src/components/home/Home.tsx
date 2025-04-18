@@ -1,7 +1,6 @@
 import styles from './Home.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Image } from "react-bootstrap";
-import kdavatar from '../../assets/kdavatar.jpg';
 import kyle_studying from '../../assets/kyle_studying.png';
 
 export default function Home () {
