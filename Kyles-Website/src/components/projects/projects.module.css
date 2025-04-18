@@ -1,0 +1,31 @@
+.herotitle{
+    font-family: 'Calistoga', serif;
+    font-size: 48px;
+
+}
+
+.herosubtitle{
+    font-family: 'Calistoga', serif;
+    margin-bottom: 2%;
+}
+
+.herotext{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(40, 40, 40, 0.6);
+    margin-bottom: 5%;
+}
+
+.gradientheading {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    background: linear-gradient(90deg, hsl(8, 100%, 50%) 0%,  #b7f50d 55% ,#00f0dc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    color: transparent;[]
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1%;
+  }

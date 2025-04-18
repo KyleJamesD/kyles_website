@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import './Header.css'; // Add your custom styles here
+import styles from './Header.module.css';
 import { useState } from "react";
 
 
@@ -18,26 +17,41 @@ const PillsHeader = () => {
     const handleNavClick = (targetId: string) => {
         // Find the section
         const section = document.getElementById(targetId);
-        if (section) {
-        // Scroll to it smoothly, with a slight offset for the navbar height
-        const yOffset = -56; // Adjust this to your navbar's true height+margin if needed
-        const y = section.getBoundingClientRect().top + window.scrollY + yOffset;
+        if(targetId == 'home')
+        {
+            if (section) {
+                // Scroll to it smoothly, with a slight offset for the navbar height
+                const yOffset = -160; // Adjust this to your navbar's true height+margin if needed
+                const y = section.getBoundingClientRect().top + window.scrollY + yOffset;
+        
+                window.scrollTo({ top: y, behavior: 'smooth' });
+                }
+                setActive(targetId);
 
-        window.scrollTo({ top: y, behavior: 'smooth' });
         }
-        setActive(targetId);
+        else{
+            if (section) {
+                // Scroll to it smoothly, with a slight offset for the navbar height
+                const yOffset = -56; // Adjust this to your navbar's true height+margin if needed
+                const y = section.getBoundingClientRect().top + window.scrollY + yOffset;
+        
+                window.scrollTo({ top: y, behavior: 'smooth' });
+                }
+                setActive(targetId);
+        }
+        
     };
 
     return (
-            <div className='navbarouter'>
-                <div className='pill-outer' >
+            <div className={styles.navbarouter}>
+                <div className={styles.pillouter} >
                 {
                     navItems.map(item => (
                         <button
                             key={item.label}
                             // className={'button-nav'} OR {button-nav active} 
                             // .button-nav.active can only be applied to elements with button-nav applied to them 
-                            className={`button-nav${active === item.label ? ' active' : ''}`}
+                            className={`${styles.buttonnav} ${active === item.label ?  `${styles.active}` : ''}`}
                             onClick={() => handleNavClick(item.targetId)}
                         >
                             {item.name}

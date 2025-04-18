@@ -11,7 +11,7 @@
 }
 
 /* The pill-style bar */
-.pill-outer{
+.pillouter{
     display: flex;                         /* Lay out nav buttons in a row */
     background-color: rgba(223,223,223,0.2); /* Light semi-transparent background for frosted effect (note: needs 'rgba', not 'rgb' for alpha) 4th number is transparency */
     border-radius: 9999px;                 /* Maximum border radius, gives "pill" shape */
@@ -27,7 +27,7 @@
 }
 
 /* Style for each individual nav button/pill */
-.button-nav{
+.buttonnav{
     border: none;                         /* Remove default button border */
     background: transparent;              /* Transparent background by default */
     border-radius: 9999px;                /* Fully round the button for "pill" look */
@@ -44,12 +44,12 @@
 }
 
 /* Style for button on hover */
-.button-nav:hover{
+.buttonnav:hover{
     background-color: rgb(209, 209, 209); /* Light gray background on hover */
 }
 
 /* Style for the "active" (currently selected) nav button */
-.button-nav.active {
+.buttonnav.active {
     background-color: black;              /* Black background for active pill */
     color: white;                         /* White text for active pill */
 }

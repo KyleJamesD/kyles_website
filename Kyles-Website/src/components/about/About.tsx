@@ -1,11 +1,10 @@
-import "./About.css"
-
+import styles from './About.module.css';
 
 const About = () => {
     return (
         <div id="about">
             <div>About</div>
-            <div className="aboutplaceholder">
+            <div className={styles.aboutplaceholder}>
             </div>
         </div>
     );

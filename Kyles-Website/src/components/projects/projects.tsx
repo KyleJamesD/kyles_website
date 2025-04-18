@@ -1,10 +1,15 @@
-import './projects.css'
+import styles from './projects.module.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const Projects = () => {
     return (
-            <div id="projects" className='container'>
+            <div id="projects" className='container' style={{marginTop: '20%'}}>
+                <p className={styles.gradientheading} >REAL WORLD SOLUTIONS  fdhejihf  f seui hfes  fhei </p>
+                <h1 className={styles.herotitle}> Personal Projects </h1>
+                <h5 className={styles.herotext}>Building one step at a time.</h5>
+                
+
                 <div className='row row-cols-1 row-cols-md-3 g-5'>
                 <div className='col'>
                 <Card >
