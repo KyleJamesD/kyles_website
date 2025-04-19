@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 const Projects2 = () => {
 
     return (
-            <div id="projects" className='container' style={{marginTop: '20%'}}>
+            <div id="projects2" className='container' style={{marginTop: '20%'}}>
                 <p className={styles.gradientheading} >REAL WORLD SOLUTIONS</p>
                 <h1 className={styles.herotitle}> Personal Projects </h1>
                 <h5 className={styles.herotext}>Building one step at a time.</h5>
@@ -13,7 +13,8 @@ const Projects2 = () => {
                 <div className='row justify-content-md-center row-cols-1'>
                     {/* {CARD 1} */}
                     <div className={`card mb-3 rounded-4 ${styles.stickyStackCard}`} style={{maxWidth:'1040px', top: '50px'}}>
-                        <div className="row g-0">                       
+                        <div className="row g-0">
+                            {/* { col-md-5 takes up 5 of the 12 horizontal spaces of a container} */}
                             <div className="col-md-5">
                             <div className="card-body">
                             <p className={styles.cardgradientheadingright}>Inventory Management System - 2025</p>

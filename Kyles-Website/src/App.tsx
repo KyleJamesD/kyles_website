@@ -16,9 +16,9 @@ function App() {
     <>
     <PillsHeader/>
     <Home/>
-    <Projects/>
-    <About/>
     <Projects2/>
+    <About/>
+    <Projects/>
     <Contact/>
     <Footer/>
     <Projects3/>

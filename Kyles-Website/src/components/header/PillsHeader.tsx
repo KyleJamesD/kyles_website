@@ -4,10 +4,10 @@ import { useState } from "react";
 
 
 const PillsHeader = () => {
-
+// The targetID must be set in the actual Div you are navigating to.  <div id="projects"> </div>
     const navItems = [
         {name:'Home', label: 'home', targetId: 'home' },
-        { name:'Projects', label: 'projects' , targetId: 'projects'},
+        { name:'Projects', label: 'projects2' , targetId: 'projects2'},
         {name:'About', label: 'about', targetId: 'about' },
         { name:'Contact', label: 'contact', targetId: 'contact' }
       ];

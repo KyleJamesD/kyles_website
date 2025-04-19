@@ -1,7 +1,4 @@
 import styles from './projects.module.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import kyle_studying from '../../assets/kyle_studying.png';
 import { Carousel } from 'react-bootstrap';
 
 const Projects = () => {
