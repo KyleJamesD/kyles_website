@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 const Projects2 = () => {
 
     return (
-            <div id="projects2" className='container' style={{marginTop: '20%'}}>
+            <div id="projects2" className='container' style={{marginTop: '10%'}}>
                 <p className={styles.gradientheading} >REAL WORLD SOLUTIONS</p>
                 <h1 className={styles.herotitle}> Personal Projects </h1>
                 <h5 className={styles.herotext}>Building one step at a time.</h5>

@@ -63,7 +63,7 @@
   .carouselinner {
     display: flex;
     align-items: center;
-    animation: scrollCarousel 12s linear infinite;
+    animation: scrollCarousel 40s linear infinite;
   }
   .carouselimg {
     width: 64px;
@@ -73,11 +73,12 @@
   }
   
   /* Keyframes for smooth scroll left */
+   /* adjust the pixels to the total width of all pictures (plus padding) for a smooth effect that does not jump*/
   @keyframes scrollCarousel {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+        transform: translateX(-1250px); 
     }
   }

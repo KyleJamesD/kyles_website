@@ -23,37 +23,38 @@ const About = () => {
                 <div className={`card rounded-4 h-100 ${styles.cardshadow}`}>
                 <div className="card-body">
                     <h2 className={`${styles.cardtitle}`}>My Technologies 🧮</h2>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p className="card-text">HTML, CSS, JAVASCIPT, TYPESCRIPT, REACT, JAVA, ORACLE SQL, POSTGRESQL, DOCKER,
+                         BOOTSTRAP, GITHUB, FIREBASE, LINUX, TAILWIND </p>
                 </div>
                 <div className={styles.carouselouter} style={{ overflow: "hidden", width: "100%" }}>
                     <div className={styles.carouselinner}>
-                        <img src={'assets/tech1.png'} alt="tech1" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech2.png'} alt="tech2" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech3.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech4.png'} alt="tech1" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech5.png'} alt="tech2" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech6.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech7.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech8.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech9.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech10.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech11.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech12.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech13.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
+                        <img src={'assets/tech1.png'} alt="tech1" className={styles.carouselimg}/>
+                        <img src={'assets/tech2.png'} alt="tech2" className={styles.carouselimg}/>
+                        <img src={'assets/tech3.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech4.png'} alt="tech1" className={styles.carouselimg}/>
+                        <img src={'assets/tech5.png'} alt="tech2" className={styles.carouselimg}/>
+                        <img src={'assets/tech6.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech7.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech8.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech9.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech10.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech11.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech12.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech13.png'} alt="tech3" className={styles.carouselimg}/>
                         {/* Repeat as needed. Try duplicating the images for seamless loop */}
-                        <img src={'assets/tech1.png'} alt="tech1" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech2.png'} alt="tech2" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech3.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech4.png'} alt="tech1" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech5.png'} alt="tech2" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech6.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech7.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech8.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech9.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech10.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech11.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech12.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
-                        <img src={'assets/tech13.png'} alt="tech3" className={styles.carouselimg} style={{height: '100px'}}/>
+                        <img src={'assets/tech1.png'} alt="tech1" className={styles.carouselimg}/>
+                        <img src={'assets/tech2.png'} alt="tech2" className={styles.carouselimg}/>
+                        <img src={'assets/tech3.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech4.png'} alt="tech1" className={styles.carouselimg}/>
+                        <img src={'assets/tech5.png'} alt="tech2" className={styles.carouselimg}/>
+                        <img src={'assets/tech6.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech7.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech8.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech9.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech10.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech11.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech12.png'} alt="tech3" className={styles.carouselimg}/>
+                        <img src={'assets/tech13.png'} alt="tech3" className={styles.carouselimg}/>
                     </div>
                     </div>
                 </div>
@@ -63,11 +64,10 @@ const About = () => {
                 <div className={`card rounded-4 h-100 ${styles.cardshadow}`}>
                 <div className="card-body">
                 <h2 className={`${styles.cardtitle}`}>What I'm Learning 📖</h2>
-                    <p className={styles.herotext}>I'm currently trying to master...</p>
+                    <p className="card-text">I'm currently trying to master...</p>
+                    <img src={springboot}  className=" " alt="..." style={{width: '50%'}}/>
                 </div>
-                    <div>
-                    <img src={springboot}  className="card-img-bottom " alt="..." style={{width: '50%'}}/>
-                    </div>
+                
                 </div>
                 </div>
 
