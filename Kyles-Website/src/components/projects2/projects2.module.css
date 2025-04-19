@@ -90,3 +90,15 @@
   }
 
 
+.stickyStackCard {
+  position: sticky;
+  top: 60px; /* have to adjust the top for each card to get the stacked effect */
+  z-index: 1;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  margin-bottom: -30px; /* Negative margin so they 'overlap' */
+  transition: box-shadow 0.2s;
+}
+.stickyStackCard:hover,
+.stickyStackCard:focus-within {
+  box-shadow: 0 8px 40px rgba(0,0,0,.18);
+}

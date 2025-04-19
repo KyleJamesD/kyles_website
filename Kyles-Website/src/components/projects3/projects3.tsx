@@ -1,10 +1,14 @@
-import styles from './projects.module.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import kyle_studying from '../../assets/kyle_studying.png';
+import styles from './projects3.module.css';
 import { Carousel } from 'react-bootstrap';
+import { useInView } from 'react-intersection-observer';
 
-const Projects = () => {
+const Projects3 = () => {
+
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.2, // triggers when 20% appears in viewport
+      });
+
     return (
             <div id="projects" className='container' style={{marginTop: '20%'}}>
                 <p className={styles.gradientheading} >REAL WORLD SOLUTIONS</p>
@@ -14,7 +18,7 @@ const Projects = () => {
 
                 <div className='row justify-content-md-center row-cols-1'>
                     {/* {CARD 1} */}
-                    <div className="card mb-3 rounded-4" style={{maxWidth:'1040px'}}>
+                    <div ref={ref} className={`card mb-3 rounded-4 ${styles.stackedCard} ${inView ? styles.visible : ''}`} style={{maxWidth:'1040px'}}>
                         <div className="row g-0">                       
                             <div className="col-md-5">
                             <div className="card-body">
@@ -56,7 +60,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* {CARD 2} */}
-                <div className="card mb-3 rounded-4" style={{maxWidth:'1040px'}}>
+                <div ref={ref} className={`card mb-3 rounded-4 ${styles.stackedCard} ${inView ? styles.visible : ''}`} style={{maxWidth:'1040px'}}>
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
@@ -89,7 +93,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* {CARD 3} */}
-                <div className="card mb-3 rounded-4" style={{maxWidth:'1040px',}}>
+                <div ref={ref} className={`card mb-3 rounded-4 ${styles.stackedCard} ${inView ? styles.visible : ''}`} style={{maxWidth:'1040px',}}>
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
@@ -134,7 +138,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* {CARD 4} */}
-                <div className="card mb-3 rounded-4" style={{maxWidth:'1040px'}}>
+                <div ref={ref} className={`card mb-3 rounded-4 ${styles.stackedCard} ${inView ? styles.visible : ''}`} style={{maxWidth:'1040px'}}>
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
@@ -176,7 +180,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* {CARD 5} */}
-                <div className="card mb-3 rounded-4" style={{maxWidth:'1040px'}}>
+                <div ref={ref} className={`card mb-3 rounded-4 ${styles.stackedCard} ${inView ? styles.visible : ''}`} style={{maxWidth:'1040px'}}>
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
@@ -228,4 +232,4 @@ const Projects = () => {
     ); 
 }
 
-export default Projects;
+export default Projects3;

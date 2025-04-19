@@ -1,10 +1,8 @@
-import styles from './projects.module.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import kyle_studying from '../../assets/kyle_studying.png';
+import styles from './projects2.module.css';
 import { Carousel } from 'react-bootstrap';
 
-const Projects = () => {
+const Projects2 = () => {
+
     return (
             <div id="projects" className='container' style={{marginTop: '20%'}}>
                 <p className={styles.gradientheading} >REAL WORLD SOLUTIONS</p>
@@ -14,7 +12,7 @@ const Projects = () => {
 
                 <div className='row justify-content-md-center row-cols-1'>
                     {/* {CARD 1} */}
-                    <div className="card mb-3 rounded-4" style={{maxWidth:'1040px'}}>
+                    <div className={`card mb-3 rounded-4 ${styles.stickyStackCard}`} style={{maxWidth:'1040px', top: '50px'}}>
                         <div className="row g-0">                       
                             <div className="col-md-5">
                             <div className="card-body">
@@ -56,7 +54,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* {CARD 2} */}
-                <div className="card mb-3 rounded-4" style={{maxWidth:'1040px'}}>
+                <div className={`card mb-3 rounded-4 ${styles.stickyStackCard}`} style={{maxWidth:'1040px' , top: '90px'}}>
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
@@ -89,7 +87,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* {CARD 3} */}
-                <div className="card mb-3 rounded-4" style={{maxWidth:'1040px',}}>
+                <div className={`card mb-3 rounded-4 ${styles.stickyStackCard}`} style={{maxWidth:'1040px', top: '130px'}}>
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
@@ -134,7 +132,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* {CARD 4} */}
-                <div className="card mb-3 rounded-4" style={{maxWidth:'1040px'}}>
+                <div className={`card mb-3 rounded-4 ${styles.stickyStackCard}`} style={{maxWidth:'1040px'  , top: '170px'}}>
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
@@ -176,7 +174,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* {CARD 5} */}
-                <div className="card mb-3 rounded-4" style={{maxWidth:'1040px'}}>
+                <div className={`card mb-3 rounded-4 ${styles.stickyStackCard}`} style={{maxWidth:'1040px'  , top: '210px'}}>
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
@@ -228,4 +226,4 @@ const Projects = () => {
     ); 
 }
 
-export default Projects;
+export default Projects2;
