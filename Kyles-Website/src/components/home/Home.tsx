@@ -1,17 +1,16 @@
 import styles from './Home.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Image } from "react-bootstrap";
-import kyle_studying from '../../assets/kyle_studying.png';
 
 export default function Home () {
   return (
     <div id="home">
-      <div className="container" style={{ marginTop: '7%'}} >
+      <div className="container" style={{ marginTop: '9%'}} >
         <div className="row">
             {/* {Dont need template literal strings if using global styles or boot strap.} */}
           <div className="col d-flex flex-column align-items-center">
             <Image 
-              src={kyle_studying} 
+              src='assets/kyle_studying.png' 
               roundedCircle 
               fluid 
               style={{ width: '325px', height: 'auto' }}

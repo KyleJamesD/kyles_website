@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 const Projects2 = () => {
 
     return (
-            <div id="projects2" className='container' style={{marginTop: '10%'}}>
+            <div id="projects2" className='container' style={{marginTop: '19%'}}>
                 <p className={styles.gradientheading} >REAL WORLD SOLUTIONS</p>
                 <h1 className={styles.herotitle}> Personal Projects </h1>
                 <h5 className={styles.herotext}>Building one step at a time.</h5>
@@ -36,22 +36,22 @@ const Projects2 = () => {
                             <div className="col-md-7">
                             <Carousel fade interval={3000} indicators={false}> {/* 3s per slide */}
                                 <Carousel.Item>
-                                <img src='src/assets/orbit1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                                <img src='assets/orbit1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                <img src='src/assets/orbit2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                                <img src='assets/orbit2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                <img src='src/assets/orbit3.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                                <img src='assets/orbit3.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                <img src='src/assets/orbit4.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                                <img src='assets/orbit4.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                <img src='src/assets/orbit5.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                                <img src='assets/orbit5.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                <img src='src/assets/orbit6.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                                <img src='assets/orbit6.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                                 </Carousel.Item>
                             </Carousel>
                             </div>
@@ -83,13 +83,13 @@ const Projects2 = () => {
                             
                         <Carousel fade interval={3000} indicators={false}> {/* 3s per slide */}
                             <Carousel.Item>
-                            <img src='src/assets/supermovie1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/supermovie1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/supermovie2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/supermovie2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/supermovie3.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/supermovie3.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                         </Carousel>
                         </div>
@@ -119,25 +119,25 @@ const Projects2 = () => {
                         <div className="col-md-7">
                         <Carousel fade interval={3000} indicators={false}> {/* 3s per slide */}
                             <Carousel.Item>
-                            <img src='src/assets/pandas1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/pandas1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/pandas2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/pandas2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/pandas2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/pandas2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/pandas4.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/pandas4.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/pandas5.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/pandas5.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/pandas6.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/pandas6.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/pandas7.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/pandas7.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                         </Carousel>
                         </div>
@@ -170,22 +170,22 @@ const Projects2 = () => {
                         <div className="col-md-7">
                         <Carousel fade interval={3000} indicators={false}> {/* 3s per slide */}
                             <Carousel.Item>
-                            <img src='src/assets/4guys1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/4guys1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/4guys2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/4guys2.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/4guys3.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/4guys3.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/4guys4.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/4guys4.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/4guys5.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/4guys5.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                             <Carousel.Item>
-                            <img src='src/assets/4guys6.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
+                            <img src='assets/4guys6.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
                             </Carousel.Item>
                         </Carousel>
                         </div>
@@ -216,22 +216,22 @@ const Projects2 = () => {
                                 <div  style={{marginLeft: '28%' }}>
                                 <Carousel fade interval={3000} indicators={false}> {/* 3s per slide */}
                                     <Carousel.Item>
-                                    <img src='src/assets/olasound1.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
+                                    <img src='assets/olasound1.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                    <img src='src/assets/olasound2.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
+                                    <img src='assets/olasound2.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                    <img src='src/assets/olasound3.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
+                                    <img src='assets/olasound3.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                    <img src='src/assets/olasound4.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
+                                    <img src='assets/olasound4.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                    <img src='src/assets/olasound5.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
+                                    <img src='assets/olasound5.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                    <img src='src/assets/olasound6.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
+                                    <img src='assets/olasound6.png' style={{ height: "500px" }} className="d-block img-fluid rounded-start" alt="..." />
                                     </Carousel.Item>
                                 </Carousel>
                                 </div>

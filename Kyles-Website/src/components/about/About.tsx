@@ -1,9 +1,4 @@
 import styles from './About.module.css';
-import homesweethome from '../../assets/home_sweet_home.png'
-import springboot from '../../assets/springboot.png'
-import kyle_golf from '../../assets/kyle_golf.png'
-import kyle_gaming from '../../assets/kyle_gaming.png'
-import pickleball_kyle from '../../assets/pickleball_kyle.png'
 import { useInView } from 'react-intersection-observer';
 
 const About = () => {
@@ -71,7 +66,7 @@ const About = () => {
                 <div className="card-body">
                 <h2 className={`${styles.cardtitle}`}>What I'm Learning 📖</h2>
                     <p className="card-text">I'm currently trying to master...</p>
-                    <img src={springboot}  className=" " alt="..." style={{width: '50%'}}/>
+                    <img src='assets/springboot.png'  className=" " alt="..." style={{width: '50%'}}/>
                 </div>
                 
                 </div>
@@ -83,9 +78,9 @@ const About = () => {
                 <h2 className={`${styles.cardtitle}`} >What I Do 🏅</h2>
                     <p className="card-text">In my spare time I love reading books, playing sports such as golf or pickleball and the occasional game nights with friends.</p>
                     <div className='row d-flex justify-content-between'>
-                    <img src={kyle_golf} className="card-img-bottom rounded-4" alt="..." style={{width: '32%'}}/>
-                    <img src={kyle_gaming} className="card-img-bottom rounded-4" alt="..." style={{width: '32%'}}/>
-                    <img src={pickleball_kyle} className="card-img-bottom rounded-4" alt="..." style={{width: '32%'}}/>
+                    <img src='assets/kyle_golf.png' className="card-img-bottom rounded-4" alt="..." style={{width: '32%'}}/>
+                    <img src='assets/kyle_gaming.png' className="card-img-bottom rounded-4" alt="..." style={{width: '32%'}}/>
+                    <img src='assets/pickleball_kyle.png' className="card-img-bottom rounded-4" alt="..." style={{width: '32%'}}/>
                     </div>
                 </div>
                 </div>
@@ -104,7 +99,7 @@ const About = () => {
                             </div>
                             </div>
                             <div className="col-md-7 rounded-4">
-                            <img src={homesweethome} className="card-img-bottom rounded-4" alt="..."/>
+                            <img src='assets/home_sweet_home.png' className="card-img-bottom rounded-4" alt="..."/>
                             </div>
                         </div>
                 </div>
