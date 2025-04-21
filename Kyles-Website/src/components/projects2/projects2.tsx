@@ -9,7 +9,6 @@ const Projects2 = () => {
                 <h1 className={styles.herotitle}> Personal Projects </h1>
                 <h5 className={styles.herotext}>Building one step at a time.</h5>
                 
-
                 <div className='row justify-content-md-center row-cols-1'>
                     {/* {CARD 1} */}
                     <div className={`card mb-3 rounded-4 ${styles.stickyStackCard}`} style={{maxWidth:'1040px', top: '50px'}}>
@@ -20,11 +19,15 @@ const Projects2 = () => {
                             <p className={styles.cardgradientheadingright}>Inventory Management System - 2025</p>
                             <h1 className={styles.cardherotitle}>Orbit IMS System 🗂️</h1>
                             <hr></hr>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p className="card-text">Created an inventory management system for Wing Kei Care Centre. The system includes inventory tracking, approvals,
+                                     and reports based on user’s access levels. This was my capstone project for SAIT’s Software Development program.</p>
+                                <p className="card-text"><small className="text-body-secondary">React + Typescript + Firebase Authentication + Firestore</small></p>
                             </div>
                             <div style={{ alignSelf:'flex-start', width: '100%' }}>
-                                <a href="https://github.com/"
+                                <a href="https://github.com/KyleJamesD/orbit-ims"
                                 className={styles.githubbutton}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 >GitHub 
                                 <span style={{fontSize: '1em'}}>↗
                                 </span></a>
@@ -62,17 +65,22 @@ const Projects2 = () => {
                         <p className={styles.cardgradientheadingleft}>Movie Search Engine - 2024</p>
                         <h1 className={styles.cardherotitle}>Super Movie Finder 📽️</h1>
                         <hr></hr>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className="card-text">A streamlined movie search engine that lets you find movies by title and save your favorites to a personalized list. 
+                                Sign in easily with your Google or GitHub account to access and manage your saved movies. The app leverages Firebase for secure user authentication and data storage. </p>
+                            <p className="card-text"><small className="text-body-secondary"> <a target="_blank" rel="noopener noreferrer" href='https://super-movie-finder.vercel.app/'>https://super-movie-finder.vercel.app/</a><br/>React + Javascript + Firebase Authentication + The Movie Database API</small></p>
                         </div>
                         <div style={{ alignSelf:'flex-start', width: '100%' }}>
-                            <a href="https://github.com/"
+                            <a href="https://github.com/KyleJamesD/SuperMovieFinder"
                             className={styles.githubbutton}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             >GitHub 
                             <span style={{fontSize: '1em'}}>↗
                             </span></a>
                         </div>
                         </div>
                         <div className="col-md-7">
+                            
                         <Carousel fade interval={3000} indicators={false}> {/* 3s per slide */}
                             <Carousel.Item>
                             <img src='src/assets/supermovie1.png' className="d-block w-200 img-fluid rounded-start" alt="..." />
@@ -92,14 +100,17 @@ const Projects2 = () => {
                     <div className="row g-0">                       
                         <div className="col-md-5">
                         <div className="card-body">
-                        <p className={styles.cardgradientheadingright}>Jupyter Notebooks & Python Pandas - 2025</p>
-                        <h1 className={styles.cardherotitle}>Data Analysis 📈</h1>
+                        <p className={styles.cardgradientheadingright}>Data Analysis - 2025</p>
+                        <h1 className={styles.cardherotitle}>Product Trends 📈</h1>
                         <hr></hr>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className="card-text">This is a basic data analysis project built using Jupyter Notebooks, Matplotlib, and Python Pandas. It explores key analytics such as identifying which products sold the most in various cities and at what times. The project demonstrates fundamental data exploration and visualization techniques.</p>
+                            <p className="card-text"><small className="text-body-secondary">Jupyter Notebooks + Python Pandas + Matplotlib</small></p>
                         </div>
                         <div style={{ alignSelf:'flex-start', width: '100%' }}>
-                            <a href="https://github.com/"
+                            <a href="https://github.com/KyleJamesD/Basic_Data_Analysis/blob/main/data_analysis_practice.ipynb"
                             className={styles.githubbutton}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             >GitHub 
                             <span style={{fontSize: '1em'}}>↗
                             </span></a>
@@ -140,11 +151,17 @@ const Projects2 = () => {
                         <p className={styles.cardgradientheadingleft}>Restaurant Management App - 2024</p>
                         <h1 className={styles.cardherotitle}>4 Guys Restaurant 🍔</h1>
                         <hr></hr>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className="card-text">4 Guys is a restaurant ordering system that enables customers to order food and drinks, 
+                                reserve a table for a specific date and time, and cancel reservations if needed. Guests are required to register their 
+                                name with the app before making a reservation. The system also supports printing menus and receipts for customer convenience. 
+                                All information is securly saved to a database.</p>
+                            <p className="card-text"><small className="text-body-secondary">C# + Maui + MariaDB (MariaSQL)</small></p>
                         </div>
                         <div style={{ alignSelf:'flex-start', width: '100%' }}>
-                            <a href="https://github.com/"
+                            <a href="https://github.com/KyleJamesD/4guysrestaurant/tree/main"
                             className={styles.githubbutton}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             >GitHub 
                             <span style={{fontSize: '1em'}}>↗
                             </span></a>
@@ -182,11 +199,14 @@ const Projects2 = () => {
                         <p className={styles.cardgradientheadingright}>Music Player App - 2024</p>
                         <h1 className={styles.cardherotitle}>Ola Sound 🎵</h1>
                         <hr></hr>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className="card-text">Ola Sound is a React Native mobile app that lets users stream music through a simple interface, powered by the Deezer API. Designed for easy setup and customization, it utilizes modern React Native tools such as React Navigation and Track Player, and supports both Android and iOS platforms. With straightforward installation and login, Ola Sound demonstrates a scalable foundation for mobile audio streaming experiences.</p>
+                            <p className="card-text"><small className="text-body-secondary">React Native + Typescript + Firestore + Deezer API + Android </small></p>
                         </div>
                         <div>
-                            <a href="https://github.com/"
+                            <a href="https://github.com/KyleJamesD/olasound"
                             className={styles.githubbutton}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             >GitHub 
                             <span style={{fontSize: '1em'}}>↗
                             </span></a>

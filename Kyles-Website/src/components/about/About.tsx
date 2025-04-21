@@ -4,12 +4,18 @@ import springboot from '../../assets/springboot.png'
 import kyle_golf from '../../assets/kyle_golf.png'
 import kyle_gaming from '../../assets/kyle_gaming.png'
 import pickleball_kyle from '../../assets/pickleball_kyle.png'
+import { useInView } from 'react-intersection-observer';
 
 const About = () => {
+
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.2, // triggers when 20% appears in viewport
+      });
     return (
         <div id="about" className={`${styles.about}`}>
             <div className='container'>
-            <div className='row' style={{marginBottom: '30px'}}>
+            <div className='row' style={{marginBottom: '60px'}}>
                 <div className='d-flex flex-column align-items-center'>
                 <p className={styles.gradientheading}>About Me</p>
                 <h1 className={styles.herotitle}>Get to know me better!</h1>
@@ -17,9 +23,9 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='row row-cols-2 g-4'>
+            <div className="row row-cols-1 row-cols-md-2 g-4">
 
-            <div className='col-md-7'>
+            <div ref={ref} className={`col-md-7 ${styles.stackedCard} ${inView ? styles.visible : ''} `} >
                 <div className={`card rounded-4 h-100 ${styles.cardshadow}`}>
                 <div className="card-body">
                     <h2 className={`${styles.cardtitle}`}>My Technologies 🧮</h2>
@@ -60,7 +66,7 @@ const About = () => {
                 </div>
                 </div>
 
-                <div className='col-md-5'>
+                <div ref={ref} className={`col-md-5 mt-4 mt-md-0  ${styles.stackedCard} ${inView ? styles.visible : ''} `} >
                 <div className={`card rounded-4 h-100 ${styles.cardshadow}`}>
                 <div className="card-body">
                 <h2 className={`${styles.cardtitle}`}>What I'm Learning 📖</h2>
@@ -71,11 +77,11 @@ const About = () => {
                 </div>
                 </div>
 
-                <div className='col-md-6'>
+                <div ref={ref} style={{marginTop: '30px'}} className={`col-md-6 ${styles.stackedCard} ${inView ? styles.visible : ''} `} >
                 <div className={`card rounded-4 h-100 ${styles.cardshadow}`}>
                 <div className="card-body">
                 <h2 className={`${styles.cardtitle}`} >What I Do 🏅</h2>
-                    <p className="card-text">In my spare time I love reading books, playing sports such as golf and pickleball and the occasional game nights with friends.</p>
+                    <p className="card-text">In my spare time I love reading books, playing sports such as golf or pickleball and the occasional game nights with friends.</p>
                     <div className='row d-flex justify-content-between'>
                     <img src={kyle_golf} className="card-img-bottom rounded-4" alt="..." style={{width: '32%'}}/>
                     <img src={kyle_gaming} className="card-img-bottom rounded-4" alt="..." style={{width: '32%'}}/>
@@ -85,7 +91,7 @@ const About = () => {
                 </div>
                 </div>
 
-                <div className='col-md-6'>
+                <div ref={ref} style={{marginTop: '30px'}} className={`col-md-6 ${styles.stackedCard} ${inView ? styles.visible : ''} `} >
                 <div className={`card rounded-4 h-100 ${styles.cardshadow}`}>
                 <div className="row g-0">
                             {/* { col-md-5 takes up 5 of the 12 horizontal spaces of a container} */}
@@ -93,8 +99,8 @@ const About = () => {
                             <div className="card-body">
                             <h2 className={styles.cardtitle}>My Location 📍</h2>
                             <hr></hr>
-                                <p className="card-text">Born and rasied in Calgary Alberta, My family has been in Calgary since the 1960's. 
-                                    Previously my great grandparents immigrated from Munich, Germany to Saskchewan in the early 1900's to become Canadian Farmers. 🍁</p>
+                                <p className="card-text">Born and raised in Calgary, Alberta, my family has been in Calgary since the 1950s. Prior to that, 
+                                    my great-grandparents immigrated from Munich, Germany, to Saskatchewan in the early 1900s to become Canadian farmers. 🍁</p>
                             </div>
                             </div>
                             <div className="col-md-7 rounded-4">

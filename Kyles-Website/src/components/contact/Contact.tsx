@@ -23,11 +23,20 @@ const Contact = () => {
                                                 <p className={styles.herotext}>Have a job offer or a project in mind? Im always available for coffee and I love networking! please feel free to reach out to me!</p>
                                             </div>
                                             </div>
-                                            <div className="col-md-4">
+                                            <div className="col-md-4 d-flex flex-column justify-content-around align-content-center h-100">
                                                     <div className='d-flex justify-content-center align-content-center'>
                                                         <a href="mailto:kyledyck@outlook.com"
                                                         className={styles.githubbutton}
                                                         >Email Me 
+                                                        <span style={{fontSize: '1em'}}>↗
+                                                        </span></a>
+                                                </div>
+                                                <div className='d-flex justify-content-center align-content-center'>
+                                                        <a href="https://www.linkedin.com/in/kyle-dyck-487225288/"
+                                                        className={styles.githubbutton}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        >Linkedin 
                                                         <span style={{fontSize: '1em'}}>↗
                                                         </span></a>
                                                 </div>

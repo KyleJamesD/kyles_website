@@ -39,8 +39,7 @@
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    margin-top: 4%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
 
   .cardgradientheadingleft {
@@ -52,8 +51,7 @@
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    margin-top: 4%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
 
   .cardherotitle{

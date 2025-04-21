@@ -146,6 +146,7 @@ const Projects3 = () => {
                         <h1 className={styles.cardherotitle}>4 Guys Restaurant 🍔</h1>
                         <hr></hr>
                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
                         </div>
                         <div style={{ alignSelf:'flex-start', width: '100%' }}>
                             <a href="https://github.com/"
