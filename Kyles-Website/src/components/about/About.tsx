@@ -8,8 +8,8 @@ const About = () => {
         threshold: 0.2, // triggers when 20% appears in viewport
       });
     return (
-        <div id="about" className={`${styles.about}`}>
-            <div className='container'>
+        <div id="about" className={`container ${styles.about}`}>
+
             <div className='row' style={{marginBottom: '60px'}}>
                 <div className='d-flex flex-column align-items-center'>
                 <p className={styles.gradientheading}>About Me</p>
@@ -104,15 +104,6 @@ const About = () => {
                         </div>
                 </div>
                 </div>
-
-
-            </div>
-            
-
-
-
-
-
             </div>
         </div>
     );

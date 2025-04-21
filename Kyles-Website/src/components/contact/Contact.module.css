@@ -46,7 +46,7 @@
   .githubbutton {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background: #000;
     color: #fff;
     font-family: 'Inter', sans-serif;
@@ -58,14 +58,17 @@
     letter-spacing: 0.02em;
     border: none;
     cursor: pointer;
-    gap: 6px;
     transition: background 0.15s;
     outline: none;
-    width: auto;
+    width: 140px;
   }
   .githubbutton:hover,
   .githubbutton:focus {
     background: #363636;
     color: #fff;
     text-decoration: none;
+  }
+
+  @media (min-width: 700px) {
+
   }

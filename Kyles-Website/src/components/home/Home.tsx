@@ -4,9 +4,8 @@ import { Image } from "react-bootstrap";
 
 export default function Home () {
   return (
-    <div id="home">
-      <div className="container" style={{ marginTop: '9%'}} >
-        <div className="row">
+      <div id="home" className={`container ${styles.topspacer}`} >
+        <div className={`row ${styles.topspacer}`}>
             {/* {Dont need template literal strings if using global styles or boot strap.} */}
           <div className="col d-flex flex-column align-items-center">
             <Image 
@@ -26,7 +25,6 @@ export default function Home () {
           </div>
         </div>
       </div>
-    </div>
   );
   // style="border: 2px solid orange;"
 }

@@ -39,7 +39,7 @@
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
   }
 
   .cardgradientheadingleft {
@@ -51,12 +51,12 @@
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
   }
 
   .cardherotitle{
     font-family: 'Calistoga', serif;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .githubbutton {
@@ -77,8 +77,8 @@
     gap: 6px;
     transition: background 0.15s;
     outline: none;
-    margin-top: 3%;
     width: 130px;
+    margin-bottom: 10px;
   }
   .githubbutton:hover,
   .githubbutton:focus {
@@ -99,4 +99,55 @@
 .stickyStackCard:hover,
 .stickyStackCard:focus-within {
   box-shadow: 0 8px 40px rgba(0,0,0,.18);
+}
+
+.cardpadding{
+  padding-left: 10px;
+  padding-right: 10px;
+}  
+
+.olamargin {
+  margin-left: 15%;
+ }
+
+
+@media (min-width: 700px) {
+  .sidespacer {
+    max-width: 1040px;
+     top: 50px;
+  }
+  .cardpadding{
+    padding-left: none;
+    padding-right: none;
+  }
+
+  .cardherotitle{
+    font-family: 'Calistoga', serif;
+    font-size: 32px;
+}
+
+.githubbutton{
+  margin-top: none;
+  margin-bottom: none;
+}
+
+.card2top{
+  top: 90px;
+ }
+ 
+ .card3top{
+   top: 130px;
+  }
+ 
+  .card4top{
+   top: 170px;
+  }
+ 
+  .card5top{
+   top: 210px;
+  }
+
+  .olamargin {
+    margin-left: 30%;
+   }
 }

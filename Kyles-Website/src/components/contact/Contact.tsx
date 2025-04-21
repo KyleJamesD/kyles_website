@@ -13,8 +13,8 @@ const Contact = () => {
                 </div>
                     <div className='row d-flex justify-content-center'>
                         <div className='col-md-9'>
-                                <div className={`card rounded-4 h-100 ${styles.cardshadow} ${styles.cardbackground}`}>
-                                        <div className="row g-0 h-100 align-items-center">
+                                <div className={`card rounded-4 ${styles.cardshadow} ${styles.cardbackground}`}>
+                                        <div className="row align-items-center">
                                             {/* { col-md-5 takes up 5 of the 12 horizontal spaces of a container} */}
                                             <div className="col-md-8">
                                             <div className="card-body ">
@@ -23,15 +23,15 @@ const Contact = () => {
                                                 <p className={styles.herotext}>Have a job offer or a project in mind? Im always available for coffee and I love networking! please feel free to reach out to me!</p>
                                             </div>
                                             </div>
-                                            <div className="col-md-4 d-flex flex-column justify-content-around align-content-center h-100">
-                                                    <div className='d-flex justify-content-center align-content-center'>
-                                                        <a href="mailto:kyledyck@outlook.com"
-                                                        className={styles.githubbutton}
-                                                        >Email Me 
-                                                        <span style={{fontSize: '1em'}}>↗
-                                                        </span></a>
-                                                </div>
-                                                <div className='d-flex justify-content-center align-content-center'>
+                                            <div className="col-md-4 d-flex flex-column align-items-center gap-3">
+
+                                                    <a href="mailto:kyledyck@outlook.com"
+                                                    className={styles.githubbutton}
+                                                    >Email Me 
+                                                    <span style={{fontSize: '1em'}}>↗
+                                                    </span></a>
+
+
                                                         <a href="https://www.linkedin.com/in/kyle-dyck-487225288/"
                                                         className={styles.githubbutton}
                                                         target="_blank"
@@ -39,7 +39,6 @@ const Contact = () => {
                                                         >Linkedin 
                                                         <span style={{fontSize: '1em'}}>↗
                                                         </span></a>
-                                                </div>
                                             </div>
                                         </div>
                                 </div>
