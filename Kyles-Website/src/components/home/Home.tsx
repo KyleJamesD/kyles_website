@@ -12,7 +12,7 @@ export default function Home () {
               src='assets/kyle_studying.png' 
               roundedCircle 
               fluid 
-              style={{ width: '325px', height: 'auto' }}
+              className={`${styles.heroimage}`}
             />
             <h1 className={`${styles.herotitle}`}>👋Hello World! I'm Kyle.</h1>
             <h3 className={`${styles.herosubtitle}`}>A Software Developer</h3>

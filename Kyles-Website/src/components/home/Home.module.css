@@ -17,7 +17,7 @@
 
 .herotext {
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: rgba(0,0,0,0.6);
     max-width: 100%;          /* allow shrink on mobile */
@@ -31,14 +31,33 @@
 
 }
 
+
+.heroimage{
+    width: 200px;
+    height: auto;
+}
+
 @media (min-width: 700px) {
+    .topspacer{
+        margin-top: 9%;
+    }
+    .heroimage{
+        width: 325px;
+        height: auto;
+    }
+
     .herotext {
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(0,0,0,0.6);
+        max-width: 100%;          /* allow shrink on mobile */
+        width: 100%;              /* fill parent by default */
+        /* add line-height for better readability, optional: */
+        line-height: 1.4;
         max-width: 600px;  /* cap on big screens only */
         margin-left: auto;
         margin-right: auto;
-    }
-    .topspacer{
-        margin-top: 9%;
     }
 }
 
