@@ -69,6 +69,10 @@
     text-decoration: none;
   }
 
-  @media (min-width: 700px) {
+  @media (max-width: 700px) {
+
+    .githubbutton {
+      width: 160px;
+    }
 
   }
