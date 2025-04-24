@@ -47,7 +47,7 @@ const Contact = () => {
 
                     <div style={{marginTop: '5%'}}>
                         <hr></hr>
-                        <p>© 2025 - Kyle Dyck </p>
+                        <p>© 2025 - Kyle Dyck - kyledyck@outlook.com </p>
                     </div>
                     <div>
                     <h1 className={styles.herotitle}>Thank you!</h1>
