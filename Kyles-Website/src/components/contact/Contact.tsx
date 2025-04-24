@@ -4,16 +4,16 @@ import styles from './Contact.module.css';
 
 const Contact = () => {
     return (
-        <div id="contact">
+        <div id="contact" className={` d-flex justify-content-center align-items-center `} style={{ height: '100vh'}}>
             <div className='container'>
-                <div className='row' style={{ marginTop:'10%'}}>
+                <div className='row' >
                     <div className='d-flex flex-column align-items-center'>
-                    <p className={styles.cardgradientheadingleft}>Contact me</p>
+                    <p className={`${styles.cardgradientheadingleft} ${styles.spacer}` }>Contact me</p>
                     </div>
                 </div>
                     <div className='row d-flex justify-content-center'>
                         <div className='col-md-9'>
-                                <div className={`card rounded-4 ${styles.cardshadow} ${styles.cardbackground}`}>
+                                <div className={`card rounded-4 p-3 ${styles.cardshadow} ${styles.cardbackground}`}>
                                         <div className="row align-items-center">
                                             {/* { col-md-5 takes up 5 of the 12 horizontal spaces of a container} */}
                                             <div className="col-md-8">
@@ -45,9 +45,13 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div style={{marginTop: '8%'}}>
+                    <div style={{marginTop: '5%'}}>
                         <hr></hr>
                         <p>© 2025 - Kyle Dyck </p>
+                    </div>
+                    <div>
+                    <h1 className={styles.herotitle}>Thank you!</h1>
+                        
                     </div>
             </div>
         </div>

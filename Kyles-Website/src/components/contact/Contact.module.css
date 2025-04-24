@@ -75,4 +75,14 @@
       width: 160px;
     }
 
+    .spacer{
+      padding-top: 30%;
+    }
+
+    .herotitle{
+      font-family: 'Calistoga', serif;
+      font-size: 40px;
   }
+
+  }
+

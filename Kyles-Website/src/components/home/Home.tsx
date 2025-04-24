@@ -4,7 +4,7 @@ import { Image } from "react-bootstrap";
 
 export default function Home () {
   return (
-      <div id="home" className={`container ${styles.topspacer}`} >
+      <div id="home" className={`container ${styles.topspacer} ${styles.spacer}`} >
         <div className={`row ${styles.topspacer}`}>
             {/* {Dont need template literal strings if using global styles or boot strap.} */}
           <div className="col d-flex flex-column align-items-center">
