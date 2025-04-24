@@ -20,7 +20,7 @@ const Contact = () => {
                                             <div className="card-body ">
                                             <h2 className={styles.herotitle}>Let's Get In Touch!</h2>
                                             <hr></hr>
-                                                <p className={styles.herotext}>Have a job offer or a project in mind? Im always available for coffee and I love networking! please feel free to reach out to me!</p>
+                                                <p className={styles.herotext}>Have a job offer or a project in mind? I'm always available for coffee and I love networking! please feel free to reach out to me!</p>
                                             </div>
                                             </div>
                                             <div className="col-md-4 d-flex flex-column align-items-center gap-3">
