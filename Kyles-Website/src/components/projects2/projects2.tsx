@@ -199,7 +199,10 @@ const Projects2 = () => {
                         <p className={styles.cardgradientheadingright}>Music Player App - 2024</p>
                         <h1 className={styles.cardherotitle}>Ola Sound 🎵</h1>
                         <hr className={styles.bigscreenhr}></hr>
-                            <p className={`card-text mb-0 ${styles.cardtext} `}>Ola Sound is a React Native mobile app that lets users stream music through a simple interface, powered by the Deezer API. Designed for easy setup and customization, it utilizes modern React Native tools such as React Navigation and Track Player, and supports both Android and iOS platforms. With straightforward installation and login, Ola Sound demonstrates a scalable foundation for mobile audio streaming experiences.</p>
+                            <p className={`card-text mb-0 ${styles.cardtext} `}>Ola Sound is a React Native mobile app that lets users stream music through 
+                                a simple interface, powered by the Deezer API. Designed for easy setup and customization, 
+                                it utilizes modern React Native tools such as React Navigation and Track Player,
+                                 and supports Android platforms. With straightforward installation and login, Ola Sound demonstrates a scalable foundation for mobile audio streaming experiences.</p>
                             <small className="text-body-secondary mb-0">React Native + Typescript + Firestore + Deezer API + Android </small>
                         </div>
                         <div>

@@ -92,7 +92,7 @@
   top: 60px; /* have to adjust the top for each card to get the stacked effect */
   z-index: 1;
   box-shadow: 0 4px 24px rgba(0,0,0,0.10);
-  margin-bottom: -30px; /* Negative margin so they 'overlap' */
+  /* margin-bottom: -30px;  This doesnt seem to do anything but could be useful in future stacked cards to cause an "instant" overlap */
   transition: box-shadow 0.2s;
 }
 .stickyStackCard:hover,
